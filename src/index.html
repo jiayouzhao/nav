@@ -3,12 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,viewport-fit=cover">
     <title>导航</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2551698_s5s1p6cgcf8.css">
 </head>
 <body>
-    
+
+    <header class="search">
+        <div class="searchWrapper">
+            <i class="iconfont icon-sousuo"></i>
+            <form action="https://www.baidu.com/s?" method="get">
+                <input name="wd" type="search" autoComplete="off">
+                <button type="submit">搜索</button>
+            </form>
+        </div>
+    </header>
+    <main class="mainWrapper">
+        <ul>
+            <li class="addList">
+                <div class="siteList addBtn">
+                    <div class="top">
+                        <i class="addImg iconfont icon-jiahao"></i>
+                    </div>
+                    <div class="down">新增网站</div>
+                </div>
+            </li>
+        </ul>
+    </main>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
