@@ -2,11 +2,15 @@
   "name": "nav",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "rm -rf dist && parcel build src/index.html --public-url ./"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^5.0.2",
+    "postcss": "^8.2.15"
+  }
 }
